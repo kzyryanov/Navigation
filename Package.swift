@@ -15,6 +15,9 @@ let package = Package(
         )
     ],
     targets: [
-        .target(name: "Navigation")
+        .target(
+            name: "Navigation",
+            exclude: ["../../SampleApp", "../../README.md", "../../LICENSE"]
+        )
     ]
 )

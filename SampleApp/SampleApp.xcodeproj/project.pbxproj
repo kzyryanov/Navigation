@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B52551762CA5F9EF00C11F9A /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = B52551752CA5F9EF00C11F9A /* Navigation */; };
+		B52551812CA5FE2500C11F9A /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = B52551802CA5FE2500C11F9A /* Navigation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52551812CA5FE2500C11F9A /* Navigation in Frameworks */,
 				B52551762CA5F9EF00C11F9A /* Navigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +73,7 @@
 			name = SampleApp;
 			packageProductDependencies = (
 				B52551752CA5F9EF00C11F9A /* Navigation */,
+				B52551802CA5FE2500C11F9A /* Navigation */,
 			);
 			productName = SampleApp;
 			productReference = B525515F2CA5F9BD00C11F9A /* SampleApp.app */;
@@ -101,7 +104,7 @@
 			mainGroup = B52551562CA5F9BD00C11F9A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				B52551742CA5F9EF00C11F9A /* XCLocalSwiftPackageReference "../Navigation" */,
+				B525517F2CA5FE2500C11F9A /* XCLocalSwiftPackageReference "../../Navigation" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B52551602CA5F9BD00C11F9A /* Products */;
@@ -350,14 +353,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		B52551742CA5F9EF00C11F9A /* XCLocalSwiftPackageReference "../Navigation" */ = {
+		B525517F2CA5FE2500C11F9A /* XCLocalSwiftPackageReference "../../Navigation" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../Navigation;
+			relativePath = ../../Navigation;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		B52551752CA5F9EF00C11F9A /* Navigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Navigation;
+		};
+		B52551802CA5FE2500C11F9A /* Navigation */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Navigation;
 		};
